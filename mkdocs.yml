@@ -1,4 +1,6 @@
-site_name: My Docs
+site_name: My Study in USTC
+site_author: yaoyao_qiekn
+
 theme:
   name: material
   palette:
