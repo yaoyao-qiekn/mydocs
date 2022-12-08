@@ -381,10 +381,6 @@ qemu-system-arm \
 
 ![](https://oss.kimidayo.cn/img/%E6%88%AA%E5%B1%8F2022-12-07%2021.13.15.webp)
 
-正常情况应该如下图继续执行下去
-
-![正常情况](https://oss.kimidayo.cn/img/20221207211826.webp)
-
 使用该命令正确启动
 
 ```shell
