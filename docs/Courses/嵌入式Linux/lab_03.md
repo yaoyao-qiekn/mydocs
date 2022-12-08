@@ -383,7 +383,7 @@ qemu-system-arm \
 
 正常情况应该如下图继续执行下去
 
-![正常情况](https://oss.kimidayo.cn/img/20221207211826.webp =x300)
+![正常情况](https://oss.kimidayo.cn/img/20221207211826.webp)
 
 使用该命令正确启动
 
