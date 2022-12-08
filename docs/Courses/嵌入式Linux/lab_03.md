@@ -26,7 +26,7 @@ wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.12.tar.xz
 解压并进入内核目录
 
 ```shell
-tar zxvf linux-6.0.12.tar.xz
+tar -xvf linux-6.0.12.tar.xz
 
 cd linux-6.0.12
 ```
@@ -271,10 +271,7 @@ sudo umount tmpfs
 
 ![](https://oss.kimidayo.cn/img/2022-12-08%2019.42.43.webp)
 
-`Ctrl A + X` 看到 `QEMU: Terminated` ， 退出了 qemu。 实验结束
-
-
-即， 把 Enable the L2x0 outer cache controller 取消， 否则Qemu会起不来， 暂时还不知道为什么。
+`Ctrl + A` `X` 看到 `QEMU: Terminated` ， 退出了 qemu。 实验结束
 
 
 # 5. 实验过程中的困难和错误
@@ -417,5 +414,4 @@ export https_proxy=http://127.0.0.1:7890 \
        all_proxy=socks5://127.0.0.1:7890
 ```
 
-为了避免每次设置可以加入 `~/.bashrc` 然后 `source ~/.bashr`
-
+为了避免每次设置可以加入 `~/.bashrc` 然后 `source ~/.bashrc`
